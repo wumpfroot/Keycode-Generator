@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,500;0,800;1,200&display=swap');
+
+body {
+    font-family: 'Kanit', sans-serif;
+    background: rgb(230,227,227);
+    background: linear-gradient(90deg, rgba(230,227,227,1) 10%, rgba(184,194,162,1) 56%, rgba(194,194,194,1) 100%);
+}
+
+h1 {
+    text-align: center;
+}
+
+.description {
+    /* visibility: hidden; */
+    background: white;
+    border-radius: 5px 5px 0px 0px;
+    margin: 0;
+    padding: 20px;
+    border: solid 1px black;
+}
+
+#eventKey, #eventCode, #eventWhich, #eventLocation{
+    background-color: aqua;
+    text-align: center;
+    padding: 30px;
+    border: solid 1px black;
+    border-radius: 0px 0px 5px 5px;
+    font-size: 2em;
+}
+
+p {
+    text-align: center;
+}
+
+#eventKeyTitle {
+    font-size: 300px;
+    text-align: center;
+}
+
+
+.boxes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
